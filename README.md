@@ -1,1 +1,1 @@
-[LINK](https://The-DigitalAcademy.github.io/mduduzi_mdu-s_inn-salute)
+[LINK](https://the-digitalacademy.github.io/mduduzi_mdu-s_inn-salute/)
