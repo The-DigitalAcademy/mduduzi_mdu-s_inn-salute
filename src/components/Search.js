@@ -1,10 +1,12 @@
 import react, { useState } from 'react'
 import Fooddata from './FoodData'
 import Form from 'react-bootstrap/Form'
+// import Cards from 'react-bootstrap/Card'
+import Cards from './Cards'
 import './Style.css'
 
 
-function Search() {
+const Search = () => {
 
   const [fdata, setFdata] = useState(Fooddata);
   console.log(fdata);
@@ -17,13 +19,25 @@ function Search() {
       </div>
 
       <Form className='d-flex justify-content-center align-items-center mt-3'>
-        <Form.Group className="mb-3 mx-2 col-lg-4" controlId="formBasicEmail">
+        <Form.Group className="mx-2 col-lg-4" controlId="formBasicEmail">
 
           <Form.Control type="text" placeholder="Search Liquor" />
 
         </Form.Group>
-        <button className='btn text-light col-lg-1' style={{background:""}}></button>
+        <button className='btn text-light col-lg-1' style={{ background: "#ed4c67" }}>Submit</button>
       </Form>
+
+      <section className='item_section mt-4 container'>
+
+        <h2 className='px-4' style={{ fontweight: 400 }}>Liquor in Salute open now</h2>
+
+        <div className="row mt-2">
+
+          <Cards />
+
+        </div>
+
+      </section>
 
     </>
   );
