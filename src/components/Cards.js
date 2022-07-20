@@ -13,6 +13,14 @@ const Cards = () => {
             <h4 className='mt-2'>Mduduzi</h4>
             <span>3.8&nbsp;★</span>
           </div>
+
+          <div className='lower_data d-flex justift-content-between'>
+            <h5>.........</h5>
+            <span> 250 for one</span>
+          </div>
+
+
+          <div className='extra'></div>
         </div>
 
       </Card>
