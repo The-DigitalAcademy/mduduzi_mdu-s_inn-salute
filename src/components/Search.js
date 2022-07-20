@@ -16,7 +16,14 @@ function Search() {
         <h2 style={{ color: "#1b1464", coursor: "point" }} className="mt-3">Search Filter App</h2>
       </div>
 
-      
+      <Form className='d-flex justify-content-center align-items-center mt-3'>
+        <Form.Group className="mb-3 mx-2 col-lg-4" controlId="formBasicEmail">
+
+          <Form.Control type="text" placeholder="Search Liquor" />
+
+        </Form.Group>
+        <button className='btn text-light col-lg-1' style={{background:""}}></button>
+      </Form>
 
     </>
   );
