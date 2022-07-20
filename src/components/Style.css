@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.upper_data h4{
+    font-size: 18px;
+    color: rgba(17, 17, 17, 0.849);
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.upper_data span{
+    background-color: rgba(36, 150,63);
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 1px;
+    width: 45px;
+}
