@@ -4,6 +4,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.cd{
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 16rem;
+}
 .upper_data h4{
     font-size: 18px;
     color: rgba(17, 17, 17, 0.849);
