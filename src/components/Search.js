@@ -9,7 +9,7 @@ import './Style.css'
 const Search = () => {
 
   const [fdata, setFdata] = useState(Fooddata);
-  console.log(fdata);
+  
 
   return (
     <>
@@ -31,8 +31,7 @@ const Search = () => {
 
         <h2 className='px-4' style={{ fontweight: 400 }}>Liquor in Salute open now</h2>
 
-        <div className="row mt-2 d-flex justifty-content-between align-items-center]\
-        ">
+        <div className="row mt-2 d-flex justifty-content-between align-items-center">
 
           <Cards  data={fdata} />
 
