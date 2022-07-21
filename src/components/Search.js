@@ -10,6 +10,7 @@ const Search = () => {
 
   const [fdata, setFdata] = useState(Fooddata);
   
+  
 
   return (
     <>
@@ -29,7 +30,7 @@ const Search = () => {
 
       <section className='item_section mt-4 container'>
 
-        <h2 className='px-4' style={{ fontweight: 400 }}>Liquor in Salute open now</h2>
+        <h2 className='px-4' style={{ fontweight: 400, background:"yellow",width:"49%" }}>Liquor in Salute open now</h2>
 
         <div className="row mt-2 d-flex justifty-content-between align-items-center">
 
