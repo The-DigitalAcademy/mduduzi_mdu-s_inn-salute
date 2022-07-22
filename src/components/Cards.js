@@ -10,7 +10,7 @@ const Cards = ({ data }) => {
         data.map((element, k) => {
           return (
            <>
-              <Card style={{ width:'22rem',border:"none" }} className="mb-4">
+              <Card style={{ width:'22rem',border:"none" }} className="Hove mb-4">
                 <Card.Img variant="top" className='cd' src={element.imgdata}/>
 
                 <div className='card_body'>
