@@ -5,13 +5,13 @@ import Card from 'react-bootstrap/Card'
 const Cards = ({ data }) => {
 
   return (
-    <>
+    <> 
       {
         data.map((element, k) => {
           return (
-            <>
-              <Card style={{ width: '22rem',border:"none" }} className="mb-4">
-                <Card.Img variant="top" src={element.imgdata}/>
+           <>
+              <Card style={{ width:'22rem',border:"none" }} className="mb-4">
+                <Card.Img variant="top" className='cd' src={element.imgdata}/>
 
                 <div className='card_body'>
                   <div className='upper_data d-flex justify-content-between align-items-center'>
@@ -33,8 +33,8 @@ const Cards = ({ data }) => {
           )
         })
       }
-
-    </>
+</>
+    
   )
 }
 
