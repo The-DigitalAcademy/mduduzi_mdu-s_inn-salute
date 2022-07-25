@@ -5,9 +5,9 @@ const Fooddata = [
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2021/01/Three-Chord-12-Years-Twelve-Bar-Reserve-Bourbon-Whiskey.jpg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "",
-    somedata: "",
+    somedata: "2001 + order place from here recently",
     rating: "4.5",
-    price: "R600",
+    price: "R600 for one",
   
   },
 
@@ -15,11 +15,11 @@ const Fooddata = [
     id: 2,
     rname:"STAGG",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/05/Stagg-Jr.-Barrel-Proof-Kentucky-Straight-Bourbon-Whiskey.jpeg",
-    address: "",
+    address: "ohannesburg,Randfontein and Soweto",
     delimg: "",
-    somedata: "",
+    somedata: "2002 + order place from here recently",
     rating:"3.8",
-    price: "R700",
+    price: "R700 for one",
   
   },
 
@@ -27,11 +27,11 @@ const Fooddata = [
   id: 3,
   rname:"BUCHANNAN'S",
   imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/04/Buchanans-15-Year-Old-Blended-Malt-Scotch-Whisky.jpg",
-  address: "",
+  address: "ohannesburg,Randfontein and Soweto",
   delimg: "",
-  somedata: "",
+  somedata: "2003 + order place from here recently",
   rating:"4",
-  price: "R650",
+  price: "R650 fore one",
 
 },
 
@@ -39,11 +39,11 @@ const Fooddata = [
   id: 4,
   rname:"HOWLER HEAD",
   imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/12/Howler-Head-Kentucky-Straight-Banana-Bourbon-Whiskey.jpg",
-  address: "",
+  address: "ohannesburg,Randfontein and Soweto",
   delimg: "",
-  somedata: "",
+  somedata: "2004 + order place from here recently",
   rating:"5.5",
-  price: "R1000",
+  price: "R1000 for one",
 
 },
 
@@ -51,11 +51,11 @@ const Fooddata = [
   id: 5,
   rname:"DICKEL TENNESSEE",
   imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2021/03/George-Dickel-15-Years-Old-Single-Barrel-Tennessee-Whiskey.jpg",
-  address: "",
+  address: "ohannesburg,Randfontein and Soweto",
   delimg: "",
-  somedata: "",
+  somedata: "2005 + order place from here recently",
   rating:"5",
-  price: "R800",
+  price: "R800 for one",
 
 },
 
@@ -63,11 +63,11 @@ const Fooddata = [
   id: 6,
   rname:"DOS HOMBRES",
   imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/07/Dos-Hombres-Artesanal-Joven-Mezcal.jpeg",
-  address: "",
+  address: "ohannesburg,Randfontein and Soweto",
   delimg: "",
-  somedata: "",
+  somedata: "2006 + order place from here recently",
   rating:"4.5",
-  price: "650",
+  price: "R650 for one",
 
 },
 
@@ -75,34 +75,34 @@ const Fooddata = [
   id: 7,
   rname:"MICHTER'S BOURBON",
   imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/12/Michters-Small-Batch-Kentucky-Straight-Bourbon.jpg",
-  address: "",
+  address: "ohannesburg,Randfontein and Soweto",
   delimg: "",
-  somedata: "",
+  somedata: "2007 + order place from here recently",
   rating:"6",
-  price: "R900",
+  price: "R900 for one",
 
 },
 
 {
   id: 8,
-  rname:"...",
+  rname:"BULLEIT BOURBON",
   imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/08/Bulleit-Frontier-Barrel-Strength-Kentucky-Straight-Bourbon-Whiskey.jpeg",
   address: "",
-  delimg: "",
-  somedata: "",
-  rating:"",
-  price: "R950",
+  delimg: "ohannesburg,Randfontein and Soweto",
+  somedata: "2008 + order place from here recently",
+  rating:"4.5",
+  price: "R950 for one",
 
 },
 {
   id: 9,
-  rname:"...",
+  rname:"LOS SUNDAYS",
   imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/12/Los-Sundays-Reposado-Tequila.jpg",
   address: "",
   delimg: "",
-  somedata: "",
+  somedata: "2009 + order place from here recently",
   rating:"",
-  price: "R1500",
+  price: "R1500 for one",
 
 }
 

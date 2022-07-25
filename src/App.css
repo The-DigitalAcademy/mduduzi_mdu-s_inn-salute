@@ -1,11 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: rgb(29, 26, 26);
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 
 
+element.style {
+    width: 5rem;
+    position: relative;
+    left: auto;
+}
 /* 
 .body{
     font-family: 'Roboto', sans-serif;
