@@ -20,7 +20,7 @@ const Search = () => {
       </div>
 
       <Form className='d-flex justify-content-center align-items-center mt-3'>
-        <Form.Group className="mx-2 col-lg-4" controlId="formBasicEmail">
+        <Form.Group className="mx-2 col-lg-4" controlId = "formBasicEmail">
 
           <Form.Control type="text" placeholder="Search Liquor" />
 
@@ -30,9 +30,9 @@ const Search = () => {
 
       <section className='item_section mt-4 container'>
 
-        <h2 className='px-1' style={{ fontweight: 400, background:"yellow",width:"100%" }}>Liquor in Salute open now</h2>
+        <h2 className='px-1' style={{ fontweight: 400, background:"yellow",width:"85%" }}>Liquor in Salute open now</h2>
 
-        <div className="row mt-4 d-flex justifty-content-between align-items-center">
+        <div className="row mt-4 d-flex justifty-content-between">
 
           <Cards  data={fdata} />
 
