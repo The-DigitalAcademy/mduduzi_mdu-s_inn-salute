@@ -2,14 +2,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(29, 26, 26);
+    background-color: rgb(27, 25, 25);
 
 }
 
-element.style {
-    width: 5rem;
-    position: relative;
-    left: auto;
+.h2, h2 {
+    font-size: calc(1.100rem + .0vw);
 }
 
 /* 
@@ -19,23 +17,26 @@ element.style {
 } */
 
 .hove {
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
+    box-shadow: '1px 2px 9px ';
 }
 
 .hove:hover {
-    box-shadow: 0 0 10px 2px rgba(222, 204, 13, 0.699);
-    transform: .3s;
+    box-shadow: 0 0 15px 2px rgba(220, 220, 23, 0.812);
+    transform: .4s;
 }
 
 .container {
     border-radius: 16px;
+    box-shadow: 1px 2px 9px rgba(183, 183, 87, 0.699);
 } 
 
 .cd {
     border-radius: 20px;
     margin-top: 20px;
     height: 16rem;
+    margin-bottom: 20px;
 }
 
 .upper_data h4 {
@@ -46,9 +47,9 @@ element.style {
 }
 
 .upper_data span {
-    background-color: rgb(239, 239, 37);
-    border-radius: px;
-    color: rgb(7, 5, 5);
+    background-color: rgb(10, 11, 11);
+    border-radius: 5px;
+    color: rgb(249, 243, 243);
     text-align: center;
     font-size: 13px;
     font-weight: 600;
@@ -61,6 +62,7 @@ element.style {
     letter-spacing: 4px;
     font-weight: 400;
     color: rgba(17, 17, 17, 0.849);
+    margin: 5px;
 }
 
 .lower_data span {
@@ -73,12 +75,34 @@ element.style {
     border-bottom: 1px solid rgba(17, 17, 17, 0.849);
 }
 
+.px-1{
+    justify-content:"center";
+}
 .card {
-    margin: 0.8rem;
+    margin: 2.7rem;
+    /* border-radius: 5px; */
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: 0.375rem;
+    --bs-card-box-shadow: black;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgb(243, 243, 248);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: rgb(239, 239, 37);
+    --bs-card-img-overlay-padding: 
 }
 
 .last_data .limg {
-    width: 18px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
 }
 
 .last_data p {
@@ -90,5 +114,5 @@ element.style {
 .last_data .laimg{
     width: 45px;
     border-radius: 50%;
-
+    text-decoration: solid black;
 }

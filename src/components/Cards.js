@@ -10,8 +10,8 @@ const Cards = ({ data }) => {
         data.map((element, k) => {
           return (
             <>
-              <Card style={{ width: '22rem', border: "none" }} className="Hove mb-4">
-                <Card.Img variant="top" className='cd' src={element.imgdata} />
+              <Card style={{ width: '22rem', border: "none" }} className="hove mb-4">
+                <Card.Img variant="top" className="cd" src={element.imgdata} />
 
                 <div className='card_body'>
                   <div className='upper_data d-flex justify-content-between align-items-center'>
