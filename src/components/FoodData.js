@@ -1,7 +1,7 @@
 const Fooddata = [
   {
     id: 1,
-    rname: "Three Chord",
+    rname: "Three Chord 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2021/01/Three-Chord-12-Years-Twelve-Bar-Reserve-Bourbon-Whiskey.jpg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
@@ -14,7 +14,7 @@ const Fooddata = [
 
   {
     id: 2,
-    rname: "STAGG",
+    rname: "STAGG 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/05/Stagg-Jr.-Barrel-Proof-Kentucky-Straight-Bourbon-Whiskey.jpeg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
@@ -26,7 +26,7 @@ const Fooddata = [
 
   {
     id: 3,
-    rname: "BUCHANNAN'S",
+    rname: "BUCHANNAN'S 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/04/Buchanans-15-Year-Old-Blended-Malt-Scotch-Whisky.jpg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
@@ -38,7 +38,7 @@ const Fooddata = [
 
   {
     id: 4,
-    rname: "HOWLER HEAD",
+    rname: "HOWLER HEAD 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/12/Howler-Head-Kentucky-Straight-Banana-Bourbon-Whiskey.jpg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
@@ -50,7 +50,7 @@ const Fooddata = [
 
   {
     id: 5,
-    rname: "DICKEL TENNESSEE",
+    rname: "DICKEL TENNESSEE 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2021/03/George-Dickel-15-Years-Old-Single-Barrel-Tennessee-Whiskey.jpg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
@@ -62,7 +62,7 @@ const Fooddata = [
 
   {
     id: 6,
-    rname: "DOS HOMBRES",
+    rname: "DOS HOMBRES 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/07/Dos-Hombres-Artesanal-Joven-Mezcal.jpeg",
     address: "ohannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
@@ -74,7 +74,7 @@ const Fooddata = [
 
   {
     id: 7,
-    rname: "MICHTER'S BOURBON",
+    rname: "MICHTER'S BOURBON 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/12/Michters-Small-Batch-Kentucky-Straight-Bourbon.jpg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
@@ -86,7 +86,7 @@ const Fooddata = [
 
   {
     id: 8,
-    rname: "BULLEIT BOURBON",
+    rname: "BULLEIT BOURBON 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/08/Bulleit-Frontier-Barrel-Strength-Kentucky-Straight-Bourbon-Whiskey.jpeg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
@@ -97,7 +97,7 @@ const Fooddata = [
   },
   {
     id: 9,
-    rname: "LOS SUNDAYS",
+    rname: "LOS SUNDAYS 750ml",
     imgdata: "https://bigkmarketliquor.com/wp-content/uploads/2020/12/Los-Sundays-Reposado-Tequila.jpg",
     address: "Johannesburg,Randfontein and Soweto",
     delimg: "https://image.freepik.com/free-photo/flat-lay-crooked-arrow_23-2148490562.jpg",
