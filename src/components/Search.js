@@ -1,83 +1,75 @@
-import react, { useEffect, useState, } from 'react'
+import React, { useEffect, useState } from 'react'
 import Fooddata from './FoodData'
+import "./Style.css"
 import Form from 'react-bootstrap/Form'
-// import Cards from 'react-bootstrap/Card'
 import Cards from './Cards'
-import './Style.css'
-
+import Set from './Set'
 
 const Search = () => {
 
-  const [fdata, setFdata] = useState(Fooddata);
+    const [fdata, setFdata] = useState(Fooddata);
+    // console.log(fdata);
 
-  const [copydata, setCopyData] = useState([]);
+    const [copydata, setCopyData] = useState([]);
 
-  // -0.2   q 
-  
+    // console.log(copydata);
 
-  const changData = (e) => {
-    let getchangedata = e.toLowerCase();
 
-    if (getchangedata == "") {
-      setCopyData(fdata);
+    const chanegData = (e) => {
+        let getchangedata = e.toLowerCase();
 
-    } else {
-      let storedata = copydata.filter((ele, k) => {
-        ele.rname.toLowerCase().match(getchangedata);
-      });
-      setCopyData(storedata)
+        if (getchangedata == "") {
+            setCopyData(fdata);
+        } else {
+            let storedata = copydata.filter((ele, k) => {
+                return ele.rname.toLowerCase().match(getchangedata);
+            });
+
+            setCopyData(storedata)
+        }
     }
 
-  }
 
-  const Salute = "https://res.cloudinary.com/teepublic/image/private/s--eRzgxj5U--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1545853242/production/designs/3826975_1.jpg"
+    const Salute = "https://res.cloudinary.com/teepublic/image/private/s--eRzgxj5U--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1545853242/production/designs/3826975_1.jpg"
 
-  useEffect(() => {
 
-    setTimeout(() => {
-      setCopyData(Fooddata);
-    })
+    useEffect(() => {
 
-  }, [])
+        setTimeout(() => {
+            setCopyData(Fooddata);
+        }, 3000);
 
-  return (
-    <>
-      <div className='container d-flex justify-content-between align-item-center justify-content:"center"'>
-        <img src={Salute} style={{ width: "8rem", position: "relative", left: "2%", cursor: "point" }} alt="" />
-        <h2 style={{ color: "#FFF", coursor: "point", margin: "0px" }} className="mt-0.5">
-          <h2>On Head Office</h2>
-          <h2>5648 Sweet Street</h2>
-          <h2>Wonder</h2>
-          <h2>Johannesburg</h2>
-          <h2>2000</h2>
-        </h2>
-      </div>
+    }, [])
 
-      <Form className='d-flex justify-content-center align-items-center mt-3'>
-        <Form.Group className=" mx-2 col-lg-4" controlId="formBasicEmail">
+    return (
+        <>
+            <div className="container d-flex justify-content-between align-items-center">
+                <img src={Salute} style={{ width: "8rem", position: "relative", left: "2%", cursor: "pointer" }} alt="" />
+                <h2 style={{ color: "#fff", cursor: "pointer" }} className="mt-3">Search Liqour brand App</h2>
+            </div>
 
-          <Form.Control type="text"
-            onChange={(e) => changData}
-            placeholder="Search Restaurant" />
-        </Form.Group>
-        <button className='btn text-light col-lg-1' style={{ background: "#ed4c67" }}>Submit</button>
-      </Form>
 
-      <section className='item_section mt-4 container'>
+            <Form className='d-flex justify-content-center align-items-center mt-3'>
+                <Form.Group className=" mx-2 col-lg-4" controlId="formBasicEmail">
 
-        <h1 className='px-1' style={{ fontweight: 400, background: "rgb(239, 239, 37)", width: "100%" }}>Liquor in Salute open now</h1>
+                    <Form.Control type="text"
+                        onChange={(e) => chanegData(e.target.value)}
+                        placeholder="Search Liqour" />
+                </Form.Group>
+                <button className='btn text-light col-lg-1' style={{ background: "#ed4c67" }}>Submit</button>
+            </Form>
 
-        <div className="row mt-4 d-flex justifty-content-between">
 
-          {copydata && copydata.length ? <Cards data={fdata} /> : "empty"}
+            <section className='iteam_section mt-4 container'>
+                <h2 className='px-4' style={{ fontWeight: 400 }}>Liquor in Salute Open now</h2>
 
-        </div>
-
-      </section>
-
-    </>
-  );
+                <div className="row mt-2 d-flex justify-content-around align-items-center">
+                    {copydata && copydata.length ? <Cards data={copydata} /> : <Set  sdata={fdata}/>}
+                </div>
+            </section>
+            
+        </>
+    )
 }
 
-export default Search;
-
+export default Search
