@@ -76,6 +76,9 @@ body {
 }
 
 .px-1{
+    color: azure;
+}
+.px-1{
     justify-content:"center";
 }
 .card {
@@ -91,11 +94,11 @@ body {
     --bs-card-inner-border-radius: calc(0.375rem - 1px);
     --bs-card-cap-padding-y: 0.5rem;
     --bs-card-cap-padding-x: 1rem;
-    --bs-card-cap-bg: rgb(243, 243, 248);
+    --bs-card-cap-bg: rgb(156, 156, 210);
     --bs-card-cap-color: ;
     --bs-card-height: ;
     --bs-card-color: ;
-    --bs-card-bg: rgb(239, 239, 37);
+    --bs-card-bg: rgb(194, 194, 23);
     --bs-card-img-overlay-padding: 
 }
 

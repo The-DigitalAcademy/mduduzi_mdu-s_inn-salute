@@ -45,7 +45,7 @@ const Search = () => {
         <>
             <div className="container d-flex justify-content-between align-items-center">
                 <img src={Salute} style={{ width: "8rem", position: "relative", left: "2%", cursor: "pointer" }} alt="" />
-                <h2 style={{ color: "#fff", cursor: "pointer" }} className="mt-3">Search Liqour brand App</h2>
+                <h2 style={{ color: "#ffff", cursor: "pointer" }} className="mt-3">Search Liqour brand App</h2>
             </div>
 
 
@@ -56,12 +56,12 @@ const Search = () => {
                         onChange={(e) => chanegData(e.target.value)}
                         placeholder="Search Liqour" />
                 </Form.Group>
-                <button className='btn text-light col-lg-1' style={{ background: "#ed4c67" }}>Submit</button>
+                <button className='btn text-light col-lg-1' style={{ background: "  " }}>Submit</button>
             </Form>
 
 
-            <section className='iteam_section mt-4 container'>
-                <h2 className='px-4' style={{ fontWeight: 400 }}>Liquor in Salute Open now</h2>
+            <section className='iteam_section mt-4 container '>
+                <h2 className='px-4' style={{color: "#ffff", textfontWeight: 400 }}>Liquor in Salute Open now</h2>
 
                 <div className="row mt-2 d-flex justify-content-around align-items-center">
                     {copydata && copydata.length ? <Cards data={copydata} /> : <Set  sdata={fdata}/>}
