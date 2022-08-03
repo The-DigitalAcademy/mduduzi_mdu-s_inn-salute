@@ -56,7 +56,7 @@ const Search = () => {
                         onChange={(e) => chanegData(e.target.value)}
                         placeholder="Search Liqour" />
                 </Form.Group>
-                <button className='btn text-light col-lg-1' style={{ background: "  " }}>Submit</button>
+                {/* <button className='btn text-light col-lg-1' style={{ background: "  " }}>Submit</button> */}
             </Form>
 
 
