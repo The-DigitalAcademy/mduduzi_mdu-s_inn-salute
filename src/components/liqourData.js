@@ -1,4 +1,4 @@
-const Fooddata = [
+const liqourdata = [
   {
     id: 1,
     rname: "Three Chord 750ml",
@@ -110,4 +110,4 @@ const Fooddata = [
 ]
 
 
-export default Fooddata
+export default liqourdata

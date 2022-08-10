@@ -10,11 +10,11 @@ body {
     font-size: calc(1.100rem + .0vw);
 }
 
-/* 
+
 .body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
-} */
+}
 
 .hove {
     border-radius: 15px;
@@ -83,7 +83,7 @@ body {
 }
 .card {
     margin: 2.7rem;
-    /* border-radius: 5px; */
+    --border-radius: 5px;
     --bs-card-spacer-y: 1rem;
     --bs-card-spacer-x: 1rem;
     --bs-card-title-spacer-y: 0.5rem;
@@ -118,4 +118,4 @@ body {
     width: 45px;
     border-radius: 50%;
     text-decoration: solid black;
-}
+} 

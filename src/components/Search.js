@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Fooddata from './FoodData'
+import liqourdata from './liqourData'
 import "./Style.css"
 import Form from 'react-bootstrap/Form'
 import Cards from './Cards'
@@ -7,7 +7,7 @@ import Set from './Set'
 
 const Search = () => {
 
-    const [fdata, setFdata] = useState(Fooddata);
+    const [ldata, setFdata] = useState(liqourdata);
     // console.log(fdata);
 
     const [copydata, setCopyData] = useState([]);
@@ -19,7 +19,7 @@ const Search = () => {
         let getchangedata = e.toLowerCase();
 
         if (getchangedata == "") {
-            setCopyData(fdata);
+            setCopyData(ldata);
         } else {
             let storedata = copydata.filter((ele, k) => {
                 return ele.rname.toLowerCase().match(getchangedata);
@@ -36,7 +36,7 @@ const Search = () => {
     useEffect(() => {
 
         setTimeout(() => {
-            setCopyData(Fooddata);
+            setCopyData(liqourdata);
         }, 3000);
 
     }, [])
@@ -64,7 +64,7 @@ const Search = () => {
                 <h2 className='px-4' style={{color: "#ffff", textfontWeight: 400 }}>Liquor in Salute Open now</h2>
 
                 <div className="row mt-2 d-flex justify-content-around align-items-center">
-                    {copydata && copydata.length ? <Cards data={copydata} /> : <Set  sdata={fdata}/>}
+                    {copydata && copydata.length ? <Cards data={copydata} /> : <Set  sdata={ldata}/>}
                 </div>
             </section>
             
