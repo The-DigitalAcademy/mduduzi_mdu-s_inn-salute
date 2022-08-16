@@ -14,7 +14,7 @@ const Search = () => {
 
     // console.log(copydata);
 
-
+ 
     const chanegData = (e) => {
         let getchangedata = e.toLowerCase();
 
@@ -57,7 +57,7 @@ const Search = () => {
                         placeholder="Search Liqour" />
                 </Form.Group>
                 {/* <button className='btn text-light col-lg-1' style={{ background: "  " }}>Submit</button> */}
-            </Form>
+            </Form> 
 
 
             <section className='iteam_section mt-4 container '>

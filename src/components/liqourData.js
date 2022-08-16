@@ -9,7 +9,7 @@ const liqourdata = [
     price: "R600 for one",
     rating: "4.5",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
-    
+    qnty:0,
   },
 
   {
@@ -22,6 +22,7 @@ const liqourdata = [
     rating: "3.8",
     price: "R700 for one",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
+    qnty:0,
   },
 
   {
@@ -34,6 +35,7 @@ const liqourdata = [
     rating: "4",
     price: "R650 fore one",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
+    qnty:0,
   },
 
   {
@@ -46,6 +48,7 @@ const liqourdata = [
     rating: "5.5",
     price: "R1000 for one",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
+    quty:0,
   },
 
   {
@@ -58,6 +61,7 @@ const liqourdata = [
     rating: "5",
     price: "R800 for one",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
+    qnty:0,
   },
 
   {
@@ -70,6 +74,7 @@ const liqourdata = [
     rating: "4.5",
     price: "R650 for one",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
+    qnty:0,
   },
 
   {
@@ -82,6 +87,7 @@ const liqourdata = [
     rating: "6",
     price: "R900 for one",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
+    qnty:0
   },
 
   {
@@ -94,6 +100,7 @@ const liqourdata = [
     rating: "4.5",
     price: "R950 for one",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
+    qnty:0
   },
   {
     id: 9,
@@ -105,6 +112,7 @@ const liqourdata = [
     rating: "5.3",
     price: "R1500 for one",
     arrimg: "https://tse3.mm.bing.net/th?id=OIP.rqccHcAMrwz3-VhRVsBqCwHaDt&pid=Api&P=0",
+    qnty:0
   }
 
 ]
