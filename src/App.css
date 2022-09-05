@@ -10,6 +10,9 @@ body {
     font-size: calc(1.100rem + .0vw);
 }
 
+.nav {
+    background-color: rgb(27, 25, 25);
+}
 
 .body{
     font-family: 'Roboto', sans-serif;
@@ -37,6 +40,7 @@ body {
     margin-top: 20px;
     height: 16rem;
     margin-bottom: 20px;
+
 }
 
 .upper_data h4 {
