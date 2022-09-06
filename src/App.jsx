@@ -33,7 +33,10 @@ function App() {
         </Link>
 
         <Link to="/cartpage">
-          <h2 style={{ color: "#ffff", cursor: "pointer" }} className="mt-3"><i class="bi bi-bag"></i></h2>
+          <div className="links">
+            <h2 style={{ color: "#ffff", cursor: "pointer" }} className="mt-3"><i class="bi bi-bag"></i></h2>
+          </div>
+          
         </Link>
         
       </div>
