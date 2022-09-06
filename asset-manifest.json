@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mduduzi_mdu-s_inn-salute/static/css/main.0df9104e.css",
-    "main.js": "/mduduzi_mdu-s_inn-salute/static/js/main.9c354943.js",
+    "main.css": "/mduduzi_mdu-s_inn-salute/static/css/main.075aa4a8.css",
+    "main.js": "/mduduzi_mdu-s_inn-salute/static/js/main.25679ca3.js",
     "index.html": "/mduduzi_mdu-s_inn-salute/index.html",
-    "main.0df9104e.css.map": "/mduduzi_mdu-s_inn-salute/static/css/main.0df9104e.css.map",
-    "main.9c354943.js.map": "/mduduzi_mdu-s_inn-salute/static/js/main.9c354943.js.map"
+    "main.075aa4a8.css.map": "/mduduzi_mdu-s_inn-salute/static/css/main.075aa4a8.css.map",
+    "main.25679ca3.js.map": "/mduduzi_mdu-s_inn-salute/static/js/main.25679ca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0df9104e.css",
-    "static/js/main.9c354943.js"
+    "static/css/main.075aa4a8.css",
+    "static/js/main.25679ca3.js"
   ]
 }
