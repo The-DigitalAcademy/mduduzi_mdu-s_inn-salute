@@ -19,7 +19,7 @@ export default function CartPage() {
         <MDBRow className="justify-content-center align-items-center h-100">
           <MDBCol>
             <p>
-              <span className="h2">Liquor in Salute cart </span>
+              <span className="h2" style={{ color: "#ffff", textfontWeight: 400 }}>Liquor in Salute cart </span>
               
             </p>
 
@@ -29,8 +29,8 @@ export default function CartPage() {
                   <MDBCol md="2">
                     <MDBCardImage
                       fluid
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/1.webp"
-                      alt="Generic placeholder image"
+                      src="https://bigkmarketliquor.com/wp-content/uploads/2021/01/Three-Chord-12-Years-Twelve-Bar-Reserve-Bourbon-Whiskey.jpg"
+                      alt=""
                     />
                   </MDBCol>
                   <MDBCol md="2" className="d-flex justify-content-center">
@@ -73,11 +73,7 @@ export default function CartPage() {
               </MDBCardBody>
             </MDBCard>
 
-            <div className="d-flex justify-content-end">
             
-              <MDBBtn size="lg ">Add to cart</MDBBtn>
-
-            </div>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
