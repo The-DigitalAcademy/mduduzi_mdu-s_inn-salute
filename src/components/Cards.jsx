@@ -30,7 +30,7 @@ const Cards = ({ data }) => {
             </div>
 
             <Link
-              to="/productpage"
+              to={`/productpage/${element.id}`}
               className="button_div d-flex justify-content-center"
             >
               <div className="links">

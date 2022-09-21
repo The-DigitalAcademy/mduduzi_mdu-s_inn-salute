@@ -27,8 +27,6 @@ const Search = () => {
     }
   };
 
-
-
   useEffect(() => {
     setCopyData(liqourdata);
   }, []);

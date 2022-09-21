@@ -43,7 +43,7 @@ function App() {
     <Routes>
     <Route path="/" element={ <Search/>} />
     <Route path="/cartpage" element={ <CartPage />} />
-    <Route path="/productpage" element={ <ProductPage/>} />
+    <Route path="/productpage/:id" element={ <ProductPage/>} />
     <Route path="*" element={<Navigate to="/" replace />} />
   </Routes>
    </>

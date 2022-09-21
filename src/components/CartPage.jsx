@@ -1,26 +1,27 @@
-
-
 import React from "react";
 import {
-  MDBBtn,
+  
   MDBCard,
   MDBCardBody,
   MDBCardImage,
   MDBCol,
   MDBContainer,
-  
   MDBRow,
 } from "mdb-react-ui-kit";
 
 export default function CartPage() {
   return (
-    <section >
-      <MDBContainer className="h-100">
-        <MDBRow className="justify-content-center align-items-center h-100">
+    <section>
+      <MDBContainer className="h-100 mt-3">
+        <MDBRow className="justify-content-center align-items-center h-100 mx-2">
           <MDBCol>
             <p>
-              <span className="h2" style={{ color: "#ffff", textfontWeight: 400 }}>Liquor in Salute cart </span>
-              
+              <span
+                className="h2"
+                style={{ color: "#ffff", textfontWeight: 400 }}
+              >
+                Liquor in Salute cart{" "}
+              </span>
             </p>
 
             <MDBCard className="mb-4">
@@ -39,7 +40,7 @@ export default function CartPage() {
                       <p className="lead fw-normal mb-0">Three Chord 750ml</p>
                     </div>
                   </MDBCol>
-                  
+
                   <MDBCol md="2" className="d-flex justify-content-center">
                     <div>
                       <p className="small text-muted mb-4 pb-2">Quantity</p>
@@ -73,11 +74,9 @@ export default function CartPage() {
               </MDBCardBody>
             </MDBCard>
 
-            
           </MDBCol>
         </MDBRow>
       </MDBContainer>
     </section>
   );
 }
-
