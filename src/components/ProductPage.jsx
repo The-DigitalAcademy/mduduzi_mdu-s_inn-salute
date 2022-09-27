@@ -4,20 +4,36 @@ import Card from "react-bootstrap/Card";
 import liqourdata from "../components/liqourData";
 import { useParams } from "react-router-dom";
 
-function BasicExample() {
+function ProductPage({addToCart}) {
 
   const { id } = useParams();
  
 
   const [product, setProduct] = useState(null);
 
+  const [count, setCount] = useState(1)
+
+  const Increment = () => {
+    setCount(count + 1);
+  };
+
+  const Decrement = () => {
+    if (count > 1) {
+      setCount(count - 1);
+    }
+  };
   useEffect(() => {
    
     let p = liqourdata.find((liq) => liq.id == id)
 
     setProduct(p)
-  }, []);
+  }, [id]);
 
+const addNewProduct = () => {
+    if(count > 0) {
+        addToCart({ count, product });
+    }
+  }
  
 
   return (
@@ -31,13 +47,12 @@ function BasicExample() {
 
 
 
-
       <Card.Body>
         <div className="colours">
           <Card.Title>Three Chord 750ml</Card.Title>
           <Card.Title>R 600</Card.Title>
 
-          <Button variant="">Add to cart</Button>
+          <Button variant="" onClick={addNewProduct}>Add to cart</Button>
         </div>
       </Card.Body>
     </Card>
@@ -46,4 +61,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default ProductPage;
