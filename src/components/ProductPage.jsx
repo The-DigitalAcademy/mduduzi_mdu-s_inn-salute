@@ -49,8 +49,8 @@ const addNewProduct = () => {
 
       <Card.Body>
         <div className="colours">
-          <Card.Title>Three Chord 750ml</Card.Title>
-          <Card.Title>R 600</Card.Title>
+          <Card.Title>{product.rname}</Card.Title>
+          <Card.Title>{product.price}</Card.Title>
 
           <Button variant="" onClick={addNewProduct}>Add to cart</Button>
         </div>
