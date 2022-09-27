@@ -39,7 +39,7 @@ function App() {
         <Link to="/cartpage">
           <div className="links">
             {/* <h2 style={{ color: "#ffff", cursor: "pointer" }} me="mt-3"><i className="bi bi-bag" ></i></h2> */}
-            <span class="fa-stack fa-2x has-badge" data-count="5">
+            <span class="fa-stack fa-2x has-badge" data-count={cartProducts?.length}>
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
